@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="file:///F:/Web%20Development%20Projects/Development%20Tools/Boostrap%205/bootstrap-5.0.2-dist/css/bootstrap.min.css"
+    />
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="file:///F:/Web%20Development%20Projects/Development%20Tools/Boostrap%205/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/913f343afe.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Job Portal Website</title>
+  </head>
+  <body>
+    <section id="header">
+      <div class="menu-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">JOBCLUES</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">ALL JOBS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">COMPANIES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">WALK-IN</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">GOVT. JOBS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">INTERNSHIP</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <!---Slider-->
+    <div id="slider">
+      <div id="headerSlider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#headerSlider"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#headerSlider"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#headerSlider"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Images/p1.jpg" class="d-block img-fluid" />
+            <div class="carousel-caption">
+              <h1>JOBS AROUND YOU</h1>
+              <p>Thousends Of Jobs Knocking You, Grab One.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="Images/p2.jpg" class="d-block img-fluid" />
+            <div class="carousel-caption">
+              <h1>JOBS AROUND YOU</h1>
+              <p>Thousends Of Jobs Knocking You, Grab One.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="Images/p3.jpg" class="d-block img-fluid" />
+            <div class="carousel-caption">
+              <h1>JOBS AROUND YOU</h1>
+              <p>Thousends Of Jobs Knocking You, Grab One.</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#headerSlider"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#headerSlider"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="search-job text-center">
+      <input type="text" class="form-control" placeholder="Search Jobs" />
+      <input type="text" class="form-control" placeholder="Company" />
+      <input type="text" class="form-control" placeholder="Locationy" />
+      <input type="button" class="btn btn-primary" value="Find Jobs" />
+    </div>
+    <!-----Top Recruiters----->
+    <section id="recruiters">
+      <div class="container text-center">
+        <h3>TOP RECRUITERS</h3>
+        <div>
+          <img src="images/a1.png" />
+          <img src="images/a2.png" />
+          <img src="images/a3.png" />
+          <img src="images/a7.png" />
+          <img src="images/a5.png" />
+          <img src="images/a6.png" />
+        </div>
+        <div>
+          <img src="images/a8.png" />
+          <img src="images/a9.png" />
+          <img src="images/a10.png" />
+          <img src="images/a11.png" />
+          <img src="images/a12.png" />
+          <img src="images/a13.png" />
+        </div>
+        <div>
+          <img src="images/a20.png" />
+          <img src="images/a15.png" />
+          <img src="images/a16.png" />
+          <img src="images/a17.png" />
+          <img src="images/a18.png" />
+          <img src="images/a19.png" />
+        </div>
+      </div>
+    </section>
+    <!----Recent Jobs----->
+    <section>
+      <div class="container">
+        <h5>RECENT UPDATES</h5>
+        <div class="company-details">
+          <div class="job-update">
+            <h4><b>Seasoned Senior Python Developer(Fresher)</b></h4>
+            <p>ABC Solution Pvt Ltd.</p>
+            <i class="fas fa-briefcase"></i><span> 0-1 Years</span><br />
+            <i class="fas fa-euro-sign"></i
+            ><span> 40-45 Thousend Per Anually</span><br />
+            <i class="fas fa-map-marker-alt"></i><span> France</span>
+            <p>
+              Skills <i class="fas fa-angle-double-right"></i
+              ><small> Java</small><small>Python</small
+              ><small> Javascript</small><small> HTML And CSS</small>
+            </p>
+            <p>
+              Discription <i class="fas fa-angle-double-right"></i> Follow our
+              website to know more about this job and other jobs.<a href="#"
+                >Read More</a
+              >
+            </p>
+          </div>
+          <div class="apply-btn">
+            <button type="button" class="btn btn-primary">Apply</button>
+          </div>
+          <div class="company-details">
+            <div class="job-update">
+              <h4><b>Seasoned Senior Python Developer(Fresher)</b></h4>
+              <p>ABC Solution Pvt Ltd.</p>
+              <i class="fas fa-briefcase"></i><span> 0-1 Years</span><br />
+              <i class="fas fa-euro-sign"></i
+              ><span> 40-45 Thousend Per Anually</span><br />
+              <i class="fas fa-map-marker-alt"></i><span> France</span>
+              <p>
+                Skills <i class="fas fa-angle-double-right"></i
+                ><small> Java</small><small>Python</small
+                ><small> Javascript</small><small> HTML And CSS</small>
+              </p>
+              <p>
+                Discription <i class="fas fa-angle-double-right"></i> Follow our
+                website to know more about this job and other jobs.<a href="#"
+                  >Read More</a
+                >
+              </p>
+            </div>
+            <div class="apply-btn">
+              <button type="button" class="btn btn-primary">Apply</button>
+            </div>
+            <div class="company-details">
+              <div class="job-update">
+                <h4><b>Seasoned Senior Python Developer(Fresher)</b></h4>
+                <p>ABC Solution Pvt Ltd.</p>
+                <i class="fas fa-briefcase"></i><span> 0-1 Years</span><br />
+                <i class="fas fa-euro-sign"></i
+                ><span> 40-45 Thousend Per Anually</span><br />
+                <i class="fas fa-map-marker-alt"></i><span> France</span>
+                <p>
+                  Skills <i class="fas fa-angle-double-right"></i
+                  ><small> Java</small><small>Python</small
+                  ><small> Javascript</small><small> HTML And CSS</small>
+                </p>
+                <p>
+                  Discription <i class="fas fa-angle-double-right"></i> Follow our
+                  website to know more about this job and other jobs.<a href="#"
+                    >Read More</a
+                  >
+                </p>
+              </div>
+              <div class="apply-btn">
+                <button type="button" class="btn btn-primary">Apply</button>
+              </div>
+              <div class="company-details">
+                <div class="job-update">
+                  <h4><b>Seasoned Senior Python Developer(Fresher)</b></h4>
+                  <p>ABC Solution Pvt Ltd.</p>
+                  <i class="fas fa-briefcase"></i><span> 0-1 Years</span><br />
+                  <i class="fas fa-euro-sign"></i
+                  ><span> 40-45 Thousend Per Anually</span><br />
+                  <i class="fas fa-map-marker-alt"></i><span> France</span>
+                  <p>
+                    Skills <i class="fas fa-angle-double-right"></i
+                    ><small> Java</small><small>Python</small
+                    ><small> Javascript</small><small> HTML And CSS</small>
+                  </p>
+                  <p>
+                    Discription <i class="fas fa-angle-double-right"></i> Follow our
+                    website to know more about this job and other jobs.<a href="#"
+                      >Read More</a
+                    >
+                  </p>
+                </div>
+                <div class="apply-btn">
+                  <button type="button" class="btn btn-primary">Apply</button>
+                </div>
+                <div class="company-details">
+                  <div class="job-update">
+                    <h4><b>Seasoned Senior Python Developer(Fresher)</b></h4>
+                    <p>ABC Solution Pvt Ltd.</p>
+                    <i class="fas fa-briefcase"></i><span> 0-1 Years</span><br />
+                    <i class="fas fa-euro-sign"></i
+                    ><span> 40-45 Thousend Per Anually</span><br />
+                    <i class="fas fa-map-marker-alt"></i><span> France</span>
+                    <p>
+                      Skills <i class="fas fa-angle-double-right"></i
+                      ><small> Java</small><small>Python</small
+                      ><small> Javascript</small><small> HTML And CSS</small>
+                    </p>
+                    <p>
+                      Discription <i class="fas fa-angle-double-right"></i> Follow our
+                      website to know more about this job and other jobs.<a href="#"
+                        >Read More</a
+                      >
+                    </p>
+                  </div>
+                  <div class="apply-btn">
+                    <button type="button" class="btn btn-primary">Apply</button>
+                  </div>
+                  <div class="company-details">
+                    <div class="job-update">
+                      <h4><b>Seasoned Senior Python Developer(Fresher)</b></h4>
+                      <p>ABC Solution Pvt Ltd.</p>
+                      <i class="fas fa-briefcase"></i><span> 0-1 Years</span><br />
+                      <i class="fas fa-euro-sign"></i
+                      ><span> 40-45 Thousend Per Anually</span><br />
+                      <i class="fas fa-map-marker-alt"></i><span> France</span>
+                      <p>
+                        Skills <i class="fas fa-angle-double-right"></i
+                        ><small> Java</small><small>Python</small
+                        ><small> Javascript</small><small> HTML And CSS</small>
+                      </p>
+                      <p>
+                        Discription <i class="fas fa-angle-double-right"></i> Follow our
+                        website to know more about this job and other jobs.<a href="#"
+                          >Read More</a
+                        >
+                      </p>
+                    </div>
+                    <div class="apply-btn">
+                      <button type="button" class="btn btn-primary">Apply</button>
+                    </div>
+        </div>
+      </div>
+      <ul class="pagelink text-center">
+        <li class="left-arrow">&#8592</li>
+        <li class="active">1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li class="right-arrow">&#8594</li>
+
+      </ul>
+    </section>
+    <!----Site Stats---->
+    <section id="site-stats">
+      <div class="container text-center">
+        <h3>JOBCLUES SITE STATS</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-6">
+                <div class="stats-box">
+                  <i class="far fa-user"></i><span><small>100k+</small></span>
+                  <p>Job Seekers</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="stats-box">
+                  <i class="fab fa-slideshare"></i><span><small>500+</small></span>
+                  <p>Employee</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-6">
+                <div class="stats-box">
+                  <i class="fas fa-hand-peace"></i><span><small>10k+</small></span>
+                  <p>Active Jobs</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="stats-box">
+                  <i class="far fa-building"></i><span><small>400+</small></span>
+                  <p>Companies</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------App Baner----->
+    <section id="app-banner" class="text-center">
+      <h1>Find Jobs On Mobile, Download Jobclues App Now!!!</h1>
+      <img src="images/a21.png">
+      <img src="images/a23.png">
+    </section>
+    <!---Footer-->
+    <section id="footer">
+      <div class="ftp text-center">
+        <h1>JOBCLUES</h1>
+        <p>Made By Vaskar Kundu Copyright@2021.</p>
+      </div>
+    </section>
+  </body>
+</html>
